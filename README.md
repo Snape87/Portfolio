@@ -1,31 +1,35 @@
 # Portfólio 🚀
 Portfólio pessoal criado com HTML e CSS, apresentando meus projetos e habilidades como desenvolvedor front-end
 
-Este projeto é um portfólio pessoal desenvolvido com HTML e CSS, com o objetivo de apresentar meus conhecimentos como desenvolvedor front-end e registrar minha evolução no desenvolvimento web.
+# 💼 Portfólio Pessoal
 
-O site é dividido em seções bem estruturadas e semânticas, e foi pensado para ser simples, organizado e visualmente agradável. A estrutura é responsiva e preparada para receber melhorias futuras, como JavaScript e integração com back-end.
+Este é o meu portfólio pessoal desenvolvido com **HTML e CSS**, com o objetivo de apresentar meus conhecimentos como desenvolvedor front-end e registrar minha evolução no desenvolvimento web.
 
-📌 Seções principais:
-Navegação (Navbar): Menu fixo no topo com links internos para as seções da página, incluindo Home, Sobre Mim, Projetos e Contato. Apresenta transições suaves e efeito hover com destaque visual.
+O site é simples, organizado e visualmente agradável, com estrutura semântica e preparado para receber futuras melhorias como JavaScript e funcionalidades dinâmicas.
 
-Sobre Mim: Seção com minha foto centralizada dentro de um contorno circular, seguida de um título de apresentação. Ideal para causar uma boa primeira impressão ao visitante.
+## 📌 Seções principais
 
-Projetos: Seção com barra de rolagem horizontal (scroll-x), apresentando meus primeiros projetos pessoais. Cada projeto é exibido em um card com imagem ilustrativa, nome do projeto e breve descrição. A estilização foi feita com flexbox, gap e overflow-x para garantir uma navegação agradável.
+- **Navegação (Navbar):**  
+  Menu fixo no topo com links internos para as seções da página (Home, Sobre Mim, Projetos, Contato). Apresenta transições suaves e efeito `hover`.
 
-Estilo geral: Estilo limpo com uso de box-shadow, border-radius, espaçamentos adequados, e foco na legibilidade. Foi utilizado object-fit: cover para manter as imagens bem proporcionadas.
+- **Sobre Mim:**  
+  Foto centralizada em formato circular com uma breve apresentação abaixo.
 
-⚙️ Tecnologias utilizadas:
-HTML5
+- **Projetos:**  
+  Seção com **rolagem horizontal** exibindo meus primeiros projetos pessoais. Cada projeto tem um card com imagem e descrição.
 
-CSS3
+- **Estilo geral:**  
+  Estilo limpo e moderno com `box-shadow`, `border-radius`, `object-fit: cover`, e espaçamentos bem definidos usando `flexbox`.
 
-Git e GitHub para versionamento
+## ⚙️ Tecnologias utilizadas
 
-GitHub Desktop (controle dos commits)
+- HTML5  
+- CSS3  
+- Git e GitHub  
+- GitHub Desktop
 
-🚀 Objetivos com o projeto:
-Consolidar o aprendizado de HTML e CSS.
+## 🚀 Objetivos
 
-Aplicar boas práticas de estrutura semântica.
-
-Criar uma base sólida para evoluir futuramente para um portfólio dinâmico com JavaScript e back-end.
+- Consolidar o aprendizado de HTML e CSS  
+- Aplicar boas práticas de estrutura semântica  
+- Criar uma base para projetos futuros com JavaScript e back-end
