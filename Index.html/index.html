@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
   <title>Portfolio Novo</title>
 </head>
 <body>
@@ -70,7 +72,7 @@
   </header>
   <p>Olá! Me chamo Nicholas, tenho 21 anos e sou desenvolvedor front-end apaixonado por criar experiências digitais modernas e funcionais. Atualmente moro no Rio de Janeiro e estou expandindo meus conhecimentos em back-end para me tornar um desenvolvedor full stack.
 Gosto de manter meus projetos bem organizados, prezando por um código limpo e uma boa estrutura. Estou sempre aprendendo novas tecnologias, explorando boas práticas e evoluindo como profissional.
-Além da programação, gosto de ouvir música e aprender sobre design e usabilidade. Acredito que tecnologia é uma ponte entre ideias e soluções — e estou aqui para construir essas pontes com criatividade e dedicação</p>
+Além da programação, gosto de ouvir música e aprender sobre design e usabilidade. Acredito que tecnologia é uma ponte entre ideias e soluções e estou aqui para construir essas pontes com criatividade e dedicação</p>
  <div class="habilidades">
     <h3>Conhecimentos</h3>
     <br>
@@ -112,13 +114,42 @@ Além da programação, gosto de ouvir música e aprender sobre design e usabili
     </div>
   </div>
 
-  
+  <div class="contato">
+  <h2>Contatos</h2>
+  <br>
+  <p>Pode ser uma sugestão, crítica ou elogio sobre o site ou portfólio. Fico feliz em receber qualquer feedback e, se algo passou despercebido, farei o possível para corrigir.</p>
+  <br>
 
+  <form id="form-contato" action="https://formsubmit.co/nicholasgccardoso3@gmail.com" method="POST"></form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome" required>
 
-  <footer>
-    <p>Obrigado por visitar meu portfólio!</p>
-  </footer>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+    <label for="assunto">Assunto:</label>
+    <input type="text" id="assunto" placeholder="Digite seu assunto" required>
+
+    <label for="comentario">Comentário:</label>
+    <textarea id="comentario" placeholder="Digite seu comentário" required></textarea>
+
+    <button type="submit" id="enviar">Enviar</button>
+  </form>
+</div>
 </article>
+
+<footer>
+  <p>Obrigado por visitar meu portfólio!</p>
+  <div class="btn-social">
+    <a href="#" class="Btn">WhatsApp</a>
+    <div class="sci">
+      <a href="https://github.com/Snape87"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/nicholas-gon%C3%A7alves-a8b07b334/"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://www.instagram.com/_duartenic_/"><i class='bx bxl-instagram'></i></a>
+    </div>
+  </div>
+</footer>
+
 
 
   
