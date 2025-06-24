@@ -13,17 +13,17 @@
     <nav class="menu">
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#sobre-mim">Sobre Mim</a></li>
         <li><a href="#projects">Projetos</a></li>
         <li><a href="#contact">Contatos</a></li>
       </ul>
     </nav>
   </div>
-  <section class="sobre-ft">
-      <div class="foto"><img src="../img/foto.Nicholas.png" alt="Foto de Nicholas"></div>
-      <h1 class="titulo">Olá, meu nome é Nicholas</h1>
-  </section>
-  <section class="projetos">
+  <section id="home" class="sobre-ft">
+  <div class="foto"><img src="../img/foto.Nicholas.png" alt="Foto de Nicholas"></div>
+  <h1 class="titulo">Olá, meu nome é Nicholas</h1>
+</section>
+  <section id="projects" class="projetos">
   <p class="projetos-descricao">Esses são alguns dos meus primeiros projetos pessoais.</p>
   <div class="projetos-scroll">
     <ul class="projetos-lista">
@@ -114,13 +114,13 @@ Além da programação, gosto de ouvir música e aprender sobre design e usabili
     </div>
   </div>
 
-  <div class="contato">
+  <div class="contato" id="contact">
   <h2>Contatos</h2>
   <br>
   <p>Pode ser uma sugestão, crítica ou elogio sobre o site ou portfólio. Fico feliz em receber qualquer feedback e, se algo passou despercebido, farei o possível para corrigir.</p>
   <br>
 
-  <form id="form-contato" action="https://formsubmit.co/nicholasgccardoso3@gmail.com" method="POST"></form>
+  <form id="form-contato" action="https://formsubmit.co/nicholasgccardoso3@gmail.com" method="POST">
     <label for="nome">Nome:</label>
     <input type="text" id="nome" placeholder="Digite seu nome" required>
 
